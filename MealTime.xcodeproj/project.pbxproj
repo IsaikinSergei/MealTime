@@ -19,6 +19,8 @@
 		EA3A1F4525CDEEA6003C3BCD /* Meal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1F4125CDEEA6003C3BCD /* Meal+CoreDataProperties.swift */; };
 		EA3A1F4625CDEEA6003C3BCD /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1F4225CDEEA6003C3BCD /* User+CoreDataClass.swift */; };
 		EA3A1F4725CDEEA6003C3BCD /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA3A1F4325CDEEA6003C3BCD /* User+CoreDataProperties.swift */; };
+		EA3A1F5025D01B16003C3BCD /* Снимок экрана 2021-02-07 в 16.55.25.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3A1F4E25D01B15003C3BCD /* Снимок экрана 2021-02-07 в 16.55.25.png */; };
+		EA3A1F5125D01B16003C3BCD /* Снимок экрана 2021-02-07 в 16.55.10.png in Resources */ = {isa = PBXBuildFile; fileRef = EA3A1F4F25D01B15003C3BCD /* Снимок экрана 2021-02-07 в 16.55.10.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		EA3A1F4125CDEEA6003C3BCD /* Meal+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Meal+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		EA3A1F4225CDEEA6003C3BCD /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
 		EA3A1F4325CDEEA6003C3BCD /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		EA3A1F4E25D01B15003C3BCD /* Снимок экрана 2021-02-07 в 16.55.25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2021-02-07 в 16.55.25.png"; sourceTree = "<group>"; };
+		EA3A1F4F25D01B15003C3BCD /* Снимок экрана 2021-02-07 в 16.55.10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Снимок экрана 2021-02-07 в 16.55.10.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			children = (
 				EA3A1F4A25CDEEAE003C3BCD /* CoreDataEntities */,
 				3585ECCF23AB6B7200F49C82 /* MealTime */,
+				EA3A1F4C25D01A66003C3BCD /* Screenshots */,
 				3585ECCE23AB6B7200F49C82 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,6 +96,15 @@
 				EA3A1F4325CDEEA6003C3BCD /* User+CoreDataProperties.swift */,
 			);
 			path = CoreDataEntities;
+			sourceTree = "<group>";
+		};
+		EA3A1F4C25D01A66003C3BCD /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				EA3A1F4F25D01B15003C3BCD /* Снимок экрана 2021-02-07 в 16.55.10.png */,
+				EA3A1F4E25D01B15003C3BCD /* Снимок экрана 2021-02-07 в 16.55.25.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,8 +165,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA3A1F5125D01B16003C3BCD /* Снимок экрана 2021-02-07 в 16.55.10.png in Resources */,
 				3585ECDD23AB6B7400F49C82 /* LaunchScreen.storyboard in Resources */,
 				3585ECDA23AB6B7400F49C82 /* Assets.xcassets in Resources */,
+				EA3A1F5025D01B16003C3BCD /* Снимок экрана 2021-02-07 в 16.55.25.png in Resources */,
 				3585ECD823AB6B7200F49C82 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
